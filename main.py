@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-path = 'dane_1.txt.txt'
+path = 'dane_1.txt'
 
 plik = [wpis.replace("\n", "").split(";") for wpis in open(path, 'r', encoding='utf-8').readlines()]
 
